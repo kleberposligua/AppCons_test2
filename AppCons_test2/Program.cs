@@ -26,6 +26,13 @@ namespace AppCons_test2
             else
                 Console.WriteLine(" {0} es mayor", b);
 
+            //bucles
+            //bucle for
+            for(int i=1; i<=10; i++)
+            {
+                Console.WriteLine("Hola {0}", i);
+            }
+
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
         }
