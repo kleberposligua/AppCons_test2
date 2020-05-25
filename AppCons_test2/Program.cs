@@ -19,9 +19,15 @@ namespace AppCons_test2
             a= 10;
             int b = 20;
             Console.WriteLine("la multiplicación de {0} x {1} es {2}", a, b, (a * b));
+
+            //condicionales
+            if (a > b)
+                Console.WriteLine(" {0} es mayor", a);
+            else
+                Console.WriteLine(" {0} es mayor", b);
+
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
-
         }
     }
 }
